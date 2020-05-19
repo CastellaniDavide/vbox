@@ -1,22 +1,36 @@
 # vbox
-## Description
-This is util to undestand better IP in VM.
 
-We are using VBox by Oracle. (Windows and Linux are tested)
+## Description
+There are two imgs, that represents the differences between NAT, Bridge systems and local machine. 
+
+The program vbox.bat changes the network setting of a virtual machine.
+
+From the version 02.01 there is a file vbox.bat, that parameters are:
+- %1 : vm name
+- %2 : network setting (nat or bridged)
+
+---
 
 ## Changelog 
-- [01.01_2020-3-13](#0101_2020-3-13)
+- [02.01_2020-3-14](#0201_2020-3-14)
+- [01.01_2020-3-12](#0201_2020-3-124)
 
 ---
-### 01.01_2020-3-13
+
+### 02.01_2020-3-14
  - #### Added
-	 - Now you can see the differences between local machine's ip and BM's ones in two methods:
-       - NAT: assigned by VMM Oracle (10. ...)
-       - Bridge: assigned by Modem (196.168.1. ...)
+	 - now it's parametrized
 
 ---
-By Davide Castellani
+
+### 01.01_2020-3-12
+ - now you can see in the bin folder 2 immagin
 
 ---
-If you have any problem please contact me:
-- contacts@castellanidavide.it
+
+#### By Castellani Davide & Sabaini Chiara
+
+---
+If you have any problem please contact us:
+- chiara.sabaini@studenti.marconiverona.edu.it
+- contacts@castellanidavide.it 
